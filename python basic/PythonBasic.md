@@ -91,7 +91,7 @@ Finally, exit the shell by running the `exit()` command:
 
 When you exit the Python interactive shell and relaunch it, you will notice that any variables you had defined or commands you had run in the previous session are gone. Therefore, we can't reuse them. Another way to run a Python program is by running code that has been saved in a file. This allows us to run many instructions at a time and also reuse them, as we'll see in a later lesson. In the next lesson, we'll take a look at how to do this.
 
-## Working with the Python Shell (`Challange`)
+## Working with the Python Shell (`Challenge`)
 
 For this challenge, you will perform some basic operations using the Python interactive shell.
 
@@ -216,7 +216,7 @@ We have some new syntax in this script. We won't go over all of it in detail in 
 
 When we call `sys.argv[1]`, we're asking for the first argument that's been passed when running the script. Generally, you can pass as many arguments as you like by separating each argument with a blank space.
 
-## Running Simple Python Scripts (`Challange`)
+## Running Simple Python Scripts (`Challenge`)
 
 In this challenge, we will create a name card generator script that, when called with a first name and last name, will generate a name card with the names.
 
@@ -556,7 +556,7 @@ ValueError: too many values to unpack (expected 2)
 >>>
 ```
 
-## Using Variables and Assign Statements (`Challange`)
+## Using Variables and Assign Statements (`Challenge`)
 
 Write a script that will use distance in kilometers and time in hours to calculate and print out speed in kilometers per hour, miles per hour, and meters per second.
 
@@ -744,7 +744,7 @@ Avoid lower case `l` or uppercase `O` as single character variable names, as in 
 
 In the next lesson, we'll learn about comments, their importance, and how to write them in Python.
 
-## Variable Assignment and Variable Naming Conventions (`Challanges`)
+## Variable Assignment and Variable Naming Conventions (`Challenges`)
 
 Write a script that will calculate the area and circumference of a circle with a radius of 7. In this activity, we'll get better acquainted with variable assignment as well as variable naming conventions.
 
@@ -971,7 +971,7 @@ We then looked at the built-in `input` function and how it enables us to take in
 
 In the next lesson, we will look at data types such as integers, strings, Booleans, and more.
 
-## Fixing Indentations in a Code Block (`Challange`)
+## Fixing Indentations in a Code Block (`Challenge`)
 
 Fix the code snippet in the main.py file from the code bundle to have the appropriate indentation in each block. Once you fix it, run the script in the terminal and verify that you get the output. Don't worry if you don't understand what the code is doing; the goal is to get comfortable with indentations. The incorrect code is also shown here:
 
@@ -1001,7 +1001,7 @@ workspace $
 
 - [ ] Fix the indentations in the code above.
 
-## Implementing User Input and Comments in a Script (`Challange`)
+## Implementing User Input and Comments in a Script (`Challenge`)
 
 Write a script that takes a number from a user’s input and prints out its multiplication table from 1 to 10.
 
@@ -1377,7 +1377,7 @@ Let's go over what we have learned in this lesson before moving ahead:
 - Assignment operators carry out the operation and reassign the variable to the result.
 - Arithmetic operators in Python follow the standard order of operations in mathematics: PEMDAS.
 
-## Order of Operations (`Challange`)
+## Order of Operations (`Challenge`)
 
 In this challenge, we will try to get conversant with the order of arithmetic operators in Python. Rewrite the following equation as a Python expression and get the result of the equation:
 
@@ -1395,7 +1395,7 @@ workspace $
 
 - [ ] Find the answer to the formula referenced above and print the result to the terminal
 
-## Using Different Arithmetic Operators (`Challange`)
+## Using Different Arithmetic Operators (`Challenge`)
 
 Write a script that takes user input as days and converts the days into years, weeks, and days, and then prints them out. We can ignore leap years. The aim of this activity is to use different arithmetic operators to split days into years, weeks, and days.
 
@@ -1828,7 +1828,7 @@ class str(object)
  .
  ```
 
-## Working with Strings (`Challange`)
+## Working with Strings (`Challenge`)
 
 Write a script that converts the last n letters of a given string to uppercase. The script should take the string to convert and an integer, specifying the last n letters to convert as input from the user. You can assume that n will be a positive number.
 
@@ -2093,3 +2093,57 @@ Finally, you can assign slices of a list. This replaces the target slice with wh
 An important thing to note is that when you assign a list, it points it to an object in the memory. If you assign another variable to the variable that references that list, the new variable also references that same list object in the memory. Any changes made using either reference will always change the same list object in the memory.
 
 ## Coming soon
+
+- List References
+- Working with Lists
+- Booleans
+- Using Boolean Operators
+- Control Statements
+- Using the if Statement
+- Working with the if Statement
+- The while Statement
+- Using the while Statement
+- Using while to Keep a Program Running
+- Loops
+- Using the for Loop
+- Loops cont'd
+- The for Loop and the range Function
+- Nesting Loops
+- Using Nested Loops
+- Nested Loops
+- Breaking Out of Loops
+- Breaking out of Loops
+- Functions
+- Defining Global and Local Variables
+- Functions cont'd
+- Function Arguments
+- Function Arguments
+- Anonymous Functions
+- Creating a Lambda Function
+- Using Lambda Functions
+- List Syntax
+- Using the List Methods
+- Tuple Syntax
+- Creating a Tuple
+- Accessing Tuple Elements
+- Accessing Tuple Elements Using Indexing
+- Accessing Tuple Elements Using Slicing
+- Tuple Methods
+- Using Tuple Methods
+- Working with Dictionaries
+- Creating a Dictionary
+- Adding Data to a Dictionary
+- Reading Data from a Dictionary
+- Iterating Through Dictionaries
+- Additional Dictionary Attributes
+- Arranging and Presenting Data Using Dictionaries
+- Ordered Dictionaries
+- Combining Dictionaries
+- The Basics of Sets
+- Creating Sets
+- Adding Data to a Set
+- Reading Data from a Set
+- Building a Set
+- Removing Data from a Set
+- Set Operations
+- Creating Unions of Elements in a Collection
